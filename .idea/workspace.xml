@@ -4,22 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc0bef5b-f755-44ae-a652-ade341c26676" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/MainTest.java" afterDir="false" />
+    <list default="true" id="bc0bef5b-f755-44ae-a652-ade341c26676" name="변경" comment="Start studying">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Adapter/Banner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Adapter/Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Adapter/PrintBannerByDelegation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Adapter/PrintBannerByInheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/FactoryMethod/Framework/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/FactoryMethod/Framework/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/FactoryMethod/IDCard/IDCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/FactoryMethod/IDCard/IDCardFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Iterator/Aggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Iterator/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Iterator/BookShelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Iterator/BookShelfIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/TemplateMethod/AbstractDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/TemplateMethod/CharDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/TemplateMethod/StringDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/Adapter/AdapterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/FactoryMethod/FactoryMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/Iterator/IteratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/TemplateMethod/TemplateMethodTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/pattern/design/MainTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +44,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,7 +59,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Jp8dxk5avB9R8XKU1SyFWrDt0d" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,6 +78,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -69,6 +86,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu.pattern.design.Iterator" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -76,7 +96,53 @@
       <recent name="edu.pattern.design" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Run All">
+    <configuration name="AdapterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design-pattern.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.pattern.design.Adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.pattern.design.Adapter" />
+      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.Adapter.AdapterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryMethodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design-pattern.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.pattern.design.FactoryMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.pattern.design.FactoryMethod" />
+      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.FactoryMethod.FactoryMethodTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryMethodTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design-pattern.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.pattern.design.FactoryMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.pattern.design.FactoryMethod" />
+      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.FactoryMethod.FactoryMethodTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run All" type="JUnit" factoryName="JUnit" show_console_on_std_out="true">
       <extension name="coverage" sample_coverage="false" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -92,6 +158,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TemplateMethodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design-pattern.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.pattern.design.TemplateMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.pattern.design.TemplateMethod" />
+      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.TemplateMethod.TemplateMethodTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateMethodTest.testString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design-pattern.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.pattern.design.TemplateMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.pattern.design.TemplateMethod" />
+      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.TemplateMethod.TemplateMethodTest" />
+      <option name="METHOD_NAME" value="testString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FactoryMethodTest.test" />
+        <item itemvalue="JUnit.FactoryMethodTest" />
+        <item itemvalue="JUnit.TemplateMethodTest" />
+        <item itemvalue="JUnit.TemplateMethodTest.testString" />
+        <item itemvalue="JUnit.AdapterTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -103,11 +209,38 @@
       <updated>1672763754269</updated>
       <workItem from="1672763755674" duration="63000" />
       <workItem from="1672763856172" duration="466000" />
-      <workItem from="1672764338902" duration="247000" />
+      <workItem from="1672764338902" duration="680000" />
+      <workItem from="1672838637885" duration="5683000" />
     </task>
+    <task id="LOCAL-00001" summary="Start studying">
+      <created>1672764725220</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672764725220</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Start studying" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start studying" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/design_pattern$Run_All.ic" NAME="Run All 커버리지 결과" MODIFIED="1672764599123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
