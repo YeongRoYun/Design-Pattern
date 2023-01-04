@@ -4,31 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc0bef5b-f755-44ae-a652-ade341c26676" name="변경" comment="Start studying">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Adapter/Banner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Adapter/Print.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Adapter/PrintBannerByDelegation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Adapter/PrintBannerByInheritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/FactoryMethod/Framework/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/FactoryMethod/Framework/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/FactoryMethod/IDCard/IDCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/FactoryMethod/IDCard/IDCardFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Iterator/Aggregate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Iterator/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Iterator/BookShelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Iterator/BookShelfIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Iterator/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/TemplateMethod/AbstractDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/TemplateMethod/CharDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/TemplateMethod/StringDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/Adapter/AdapterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/FactoryMethod/FactoryMethodTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/Iterator/IteratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/TemplateMethod/TemplateMethodTest.java" afterDir="false" />
+    <list default="true" id="bc0bef5b-f755-44ae-a652-ade341c26676" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/pattern/design/MainTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +187,7 @@
       <workItem from="1672763755674" duration="63000" />
       <workItem from="1672763856172" duration="466000" />
       <workItem from="1672764338902" duration="680000" />
-      <workItem from="1672838637885" duration="5683000" />
+      <workItem from="1672838637885" duration="6316000" />
     </task>
     <task id="LOCAL-00001" summary="Start studying">
       <created>1672764725220</created>
@@ -219,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672764725220</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Iterator : Aggregate 의 개별 요소에 접근하기&#10;Adapter  : 수정할 수 없는 Api 를 Wrapping 하기&#10;Template Method : Method Call Flow 만들기&#10;Factory Method  : Template Method 를 이용해 객체 생성하기">
+      <created>1672844582886</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672844582886</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +222,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start studying" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start studying" />
+    <MESSAGE value="Iterator : Aggregate 의 개별 요소에 접근하기&#10;Adapter  : 수정할 수 없는 Api 를 Wrapping 하기&#10;Template Method : Method Call Flow 만들기&#10;Factory Method  : Template Method 를 이용해 객체 생성하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iterator : Aggregate 의 개별 요소에 접근하기&#10;Adapter  : 수정할 수 없는 Api 를 Wrapping 하기&#10;Template Method : Method Call Flow 만들기&#10;Factory Method  : Template Method 를 이용해 객체 생성하기" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/design_pattern$Run_All.ic" NAME="Run All 커버리지 결과" MODIFIED="1672764599123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
