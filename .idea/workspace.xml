@@ -4,40 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc0bef5b-f755-44ae-a652-ade341c26676" name="변경" comment="[#05 - #10] Design Pattern 구현">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/AbstractFactory/Framework/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/AbstractFactory/Framework/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/AbstractFactory/Framework/Link.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/AbstractFactory/Framework/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/AbstractFactory/Framework/Tray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/AbstractFactory/ListFactory/ListFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/AbstractFactory/ListFactory/ListLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/AbstractFactory/ListFactory/ListPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/AbstractFactory/ListFactory/ListTray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Bridge/CountDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Bridge/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Bridge/DisplayImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Bridge/StringDisplayImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Builder/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Builder/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Builder/HtmlBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Builder/TextBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Prototype/Framework/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Prototype/Framework/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Prototype/Product/MessageBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Prototype/Product/UnderlinePen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Strategy/Hand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Strategy/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Strategy/ProbStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Strategy/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Strategy/WinningStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/AbstractFactory/AbstractFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/Bridge/BridgeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/Builder/BuilderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/Prototype/PrototypeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/Singleton/SingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/Strategy/StrategyTest.java" afterDir="false" />
+    <list default="true" id="bc0bef5b-f755-44ae-a652-ade341c26676" name="변경" comment="[#11 - #14] Design Pattern 구현">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/ChainOfResponsibility/LimitSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/ChainOfResponsibility/NoSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/ChainOfResponsibility/OddSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/ChainOfResponsibility/SpecialSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/ChainOfResponsibility/Support.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/ChainOfResponsibility/Trouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Composite/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Composite/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Composite/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Composite/FileTreatmentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Decorator/Border.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Decorator/Display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Decorator/FullBorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Decorator/SideBorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Decorator/StringDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Visitor/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Visitor/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Visitor/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Visitor/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Visitor/FileTreatmentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Visitor/ListVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/ChainOfResponsibility/ChainOfResponsibilityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/Composite/CompositeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/Decorator/DecoratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/Visitor/VisitorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +42,26 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="design-pattern" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -123,65 +136,76 @@
       <recent name="edu.pattern.design" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle clean" />
+    </option>
+  </component>
   <component name="RunManager" selected="JUnit.Run All">
-    <configuration name="AbstractFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="design-pattern.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.pattern.design.AbstractFactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.pattern.design.AbstractFactory" />
-      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.AbstractFactory.AbstractFactoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="design-pattern [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="AbstractFactoryTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChainOfResponsibilityTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design-pattern.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.pattern.design.AbstractFactory.*" />
+          <option name="PATTERN" value="edu.pattern.design.ChainOfResponsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.pattern.design.AbstractFactory" />
-      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.AbstractFactory.AbstractFactoryTest" />
+      <option name="PACKAGE_NAME" value="edu.pattern.design.ChainOfResponsibility" />
+      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.ChainOfResponsibility.ChainOfResponsibilityTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BridgeTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DecoratorTest.testFullBorder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design-pattern.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.pattern.design.Bridge.*" />
+          <option name="PATTERN" value="edu.pattern.design.Decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.pattern.design.Bridge" />
-      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.Bridge.BridgeTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="edu.pattern.design.Decorator" />
+      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.Decorator.DecoratorTest" />
+      <option name="METHOD_NAME" value="testFullBorder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BridgeTest.testMultiDisplay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DecoratorTest.testMixedBorder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design-pattern.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.pattern.design.Bridge.*" />
+          <option name="PATTERN" value="edu.pattern.design.Decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.pattern.design.Bridge" />
-      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.Bridge.BridgeTest" />
-      <option name="METHOD_NAME" value="testMultiDisplay" />
+      <option name="PACKAGE_NAME" value="edu.pattern.design.Decorator" />
+      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.Decorator.DecoratorTest" />
+      <option name="METHOD_NAME" value="testMixedBorder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -202,16 +226,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrategyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VisitorTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design-pattern.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.pattern.design.Strategy.*" />
+          <option name="PATTERN" value="edu.pattern.design.Visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.pattern.design.Strategy" />
-      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.Strategy.StrategyTest" />
+      <option name="PACKAGE_NAME" value="edu.pattern.design.Visitor" />
+      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.Visitor.VisitorTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -220,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StrategyTest.test" />
-        <item itemvalue="JUnit.BridgeTest.testMultiDisplay" />
-        <item itemvalue="JUnit.BridgeTest.test" />
-        <item itemvalue="JUnit.AbstractFactoryTest.test" />
-        <item itemvalue="JUnit.AbstractFactoryTest" />
+        <item itemvalue="Gradle.design-pattern [clean]" />
+        <item itemvalue="JUnit.ChainOfResponsibilityTest.test" />
+        <item itemvalue="JUnit.VisitorTest.test" />
+        <item itemvalue="JUnit.DecoratorTest.testMixedBorder" />
+        <item itemvalue="JUnit.DecoratorTest.testFullBorder" />
       </list>
     </recent_temporary>
   </component>
@@ -241,6 +265,9 @@
       <workItem from="1672764338902" duration="680000" />
       <workItem from="1672838637885" duration="6963000" />
       <workItem from="1672924810866" duration="11781000" />
+      <workItem from="1673010017479" duration="2367000" />
+      <workItem from="1673012412077" duration="285000" />
+      <workItem from="1673012700256" duration="4763000" />
     </task>
     <task id="LOCAL-00001" summary="Start studying">
       <created>1672764725220</created>
@@ -285,7 +312,9 @@
     <MESSAGE value="Iterator : Aggregate 의 개별 요소에 접근하기&#10;Adapter  : 수정할 수 없는 Api 를 Wrapping 하기&#10;Template Method : Method Call Flow 만들기&#10;Factory Method  : Template Method 를 이용해 객체 생성하기" />
     <MESSAGE value="Merge branch 'main' of https://github.com/YeongRoYun/Design-Pattern&#10;&#10;# Conflicts:&#10;#&#9;.gitignore" />
     <MESSAGE value="[#05 - #10] Design Pattern 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="[#05 - #10] Design Pattern 구현" />
+    <MESSAGE value="[#11 - #14] Design Pattern 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="[#11 - #14] Design Pattern 구현" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/design_pattern$Run_All.ic" NAME="Run All 커버리지 결과" MODIFIED="1672764599123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
