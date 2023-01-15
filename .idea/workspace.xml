@@ -4,34 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc0bef5b-f755-44ae-a652-ade341c26676" name="변경" comment="[#11 - #14] Design Pattern 구현">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Facade/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Facade/HtmlWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Facade/PageMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Mediator/Colleague.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Mediator/ColleagueButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Mediator/ColleagueCheckbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Mediator/ColleagueTextField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Mediator/LoginFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Mediator/Mediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Memento/Gamer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Memento/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Observer/DigitObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Observer/GraphObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Observer/NumberGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Observer/RandomNumberGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/State/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/State/DayState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/State/NightState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/State/SafeFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/State/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/Facade/FacadeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/Facade/maildata.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/Mediator/MediatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/Memento/MementoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/Observer/ObserverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/State/StateTest.java" afterDir="false" />
+    <list default="true" id="bc0bef5b-f755-44ae-a652-ade341c26676" name="변경" comment="[#20 - #23] Design Pattern 구현">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Command/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Command/command/MacroCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Command/drawer/DrawCanvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Command/drawer/DrawCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Command/drawer/Drawable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Flyweight/BigChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Flyweight/BigCharFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Flyweight/BigString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Interpreter/BNF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Interpreter/example/SimpleExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Interpreter/example/SimpleExecutorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Interpreter/executor/Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Interpreter/executor/ExecutorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Interpreter/executor/ExecutorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Interpreter/executor/InterpreterFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Interpreter/interpreter/CommandNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Interpreter/interpreter/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Interpreter/interpreter/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Interpreter/interpreter/ParseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Interpreter/interpreter/PrimitiveCommandNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Interpreter/interpreter/ProgramNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Interpreter/interpreter/RepeatCommandNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Proxy/Printable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Proxy/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pattern/design/Proxy/ProxyPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/Command/CommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/Flyweight/FlyweightTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/Interperter/InterpreterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/pattern/design/Proxy/ProxyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,49 +149,81 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.Run All">
-    <configuration name="MediatorTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CommandTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design-pattern.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.pattern.design.Mediator.*" />
+          <option name="PATTERN" value="edu.pattern.design.Command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.pattern.design.Mediator" />
-      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.Mediator.MediatorTest" />
+      <option name="PACKAGE_NAME" value="edu.pattern.design.command" />
+      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.Command.CommandTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MementoTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FlyweightTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design-pattern.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.pattern.design.Memento.*" />
+          <option name="PATTERN" value="edu.pattern.design.Flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.pattern.design.Memento" />
-      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.Memento.MementoTest" />
+      <option name="PACKAGE_NAME" value="edu.pattern.design.flyweight" />
+      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.Flyweight.FlyweightTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObserverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InterpreterTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design-pattern.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.pattern.design.Observer.*" />
+          <option name="PATTERN" value="edu.pattern.design.Interperter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.pattern.design.Observer" />
-      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.Observer.ObserverTest" />
+      <option name="PACKAGE_NAME" value="edu.pattern.design.Interperter" />
+      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.Interperter.InterpreterTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design-pattern.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.pattern.design.Proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.pattern.design.proxy" />
+      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.Proxy.ProxyTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design-pattern.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.pattern.design.Proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.pattern.design.proxy" />
+      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.Proxy.ProxyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -209,45 +243,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StateTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="design-pattern.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.pattern.design.State.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.pattern.design.State" />
-      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.State.StateTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StateTest.testNight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="design-pattern.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.pattern.design.State.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.pattern.design.State" />
-      <option name="MAIN_CLASS_NAME" value="edu.pattern.design.State.StateTest" />
-      <option name="METHOD_NAME" value="testNight" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StateTest.testNight" />
-        <item itemvalue="JUnit.StateTest.test" />
-        <item itemvalue="JUnit.MementoTest.test" />
-        <item itemvalue="JUnit.ObserverTest" />
-        <item itemvalue="JUnit.MediatorTest.test" />
+        <item itemvalue="JUnit.InterpreterTest.test" />
+        <item itemvalue="JUnit.CommandTest.test" />
+        <item itemvalue="JUnit.ProxyTest.test" />
+        <item itemvalue="JUnit.ProxyTest" />
+        <item itemvalue="JUnit.FlyweightTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -268,6 +270,7 @@
       <workItem from="1673012412077" duration="285000" />
       <workItem from="1673012700256" duration="4763000" />
       <workItem from="1673663025508" duration="8796000" />
+      <workItem from="1673747767833" duration="10637000" />
     </task>
     <task id="LOCAL-00001" summary="Start studying">
       <created>1672764725220</created>
@@ -313,8 +316,26 @@
     <MESSAGE value="Merge branch 'main' of https://github.com/YeongRoYun/Design-Pattern&#10;&#10;# Conflicts:&#10;#&#9;.gitignore" />
     <MESSAGE value="[#05 - #10] Design Pattern 구현" />
     <MESSAGE value="[#11 - #14] Design Pattern 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="[#11 - #14] Design Pattern 구현" />
+    <MESSAGE value="[#15 - #19] Design Pattern 구현" />
+    <MESSAGE value="[#20 - #23] Design Pattern 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="[#20 - #23] Design Pattern 구현" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/pattern/design/Interpreter/interpreter/RepeatCommandNode.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/pattern/design/Interpreter/interpreter/PrimitiveCommandNode.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/design_pattern$Run_All.ic" NAME="Run All 커버리지 결과" MODIFIED="1672764599123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
