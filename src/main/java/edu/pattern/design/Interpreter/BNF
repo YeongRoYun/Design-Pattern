@@ -1,0 +1,5 @@
+자동차 움직이기 Syntax
+<Program> -> program <Command> end
+<Command> -> <Command> | <Repeat Command> | <Primitive Command> | <Command> <Command>
+<Repeat Command> -> repeat <number> <Command> end
+<Primitive Command> -> go | right | left
